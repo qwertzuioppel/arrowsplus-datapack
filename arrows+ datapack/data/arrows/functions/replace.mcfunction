@@ -1,0 +1,4 @@
+#as at marker with tag "found"
+execute at @s as @s align xyz run summon armor_stand ~0.5 ~ ~0.5 {NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["fletcher"]}
+execute as @e[type=armor_stand,sort=nearest,limit=1,tag=fletcher] at @s run setblock ~ ~ ~ dropper[facing=up]{Items:[{Slot:0b,id:"minecraft:barrier",Count:1b},{Slot:1b,id:"minecraft:barrier",Count:1b},{Slot:2b,id:"minecraft:barrier",Count:1b},{Slot:6b,id:"minecraft:barrier",Count:1b},{Slot:7b,id:"minecraft:barrier",Count:1b},{Slot:8b,id:"minecraft:barrier",Count:1b}],CustomName:'{"text":"Make Arrow","color":"dark_aqua","bold":true,"italic":false}'}
+execute as @e[type=armor_stand,sort=nearest,limit=1,tag=fletcher] at @s run summon glow_item_frame ~ ~ ~ {NoGravity:1b,Silent:1b,Facing:2b,Invulnerable:1b,Invisible:1b,Fixed:1b,Tags:["fletcher"],Item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1}}}

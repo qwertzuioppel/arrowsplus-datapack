@@ -1,0 +1,1 @@
+data merge block ~ ~ ~ {Items:[{Slot:5b,id:"minecraft:spectral_arrow",Count:2b}]}

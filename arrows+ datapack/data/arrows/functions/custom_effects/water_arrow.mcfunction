@@ -1,0 +1,2 @@
+setblock ~ ~ ~ water
+kill
